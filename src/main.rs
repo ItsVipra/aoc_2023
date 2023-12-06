@@ -17,6 +17,12 @@ fn main() {
         1 => {
             crate::days::day_1::exec(input_data);
         }
-        2..=25 => todo!(),
+        2 => {
+            days::day_2::exec(input_data);
+        }
+        3 => {
+            days::day_3::exec(input_data);
+        }
+        4..=25 => todo!(),
         _ => {panic!("i dunno this date: {}", day)} }
 }
